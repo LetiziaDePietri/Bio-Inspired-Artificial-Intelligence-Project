@@ -17,7 +17,7 @@ SEED = 42
 np.random.seed(SEED)
 
 #load df from CSV
-expr_df = pd.read_csv("/project/data/df_final3.csv", index_col=0)
+expr_df = pd.read_csv("project/data/df_final3.csv", index_col=0)
 
 #keep only gene columns for x (all except known metadata columns)
 metadata_col = ['pcr_response']
